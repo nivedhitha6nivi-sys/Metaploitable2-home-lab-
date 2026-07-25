@@ -17,11 +17,9 @@ use
 
 info            
 
-show  
+show options
 
-options
-
-set (set the necessary parameters RHOST refers to the target's IP and port, LHOST refers to the attacker's) 
+set (set the necessary parameters RHOST refers to the target's IP , LHOST refers to the attacker's) 
 
 run 
 
