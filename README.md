@@ -3,25 +3,26 @@ Objective : Exploit a vulnerable service in metasploitable 2
 
 Lab setup: VM kali and metasploitable2 
 
-Commands execuated: 
+## Reconnaissance & Scanning
 
-| ipconfig or ipaddr |            | ping Nmap -sV  (ipaddr)|           | namp -sV -p21  | 
+| Command | What it does |
+|---------|--------------|
+| `ipconfig` (Windows) / `ip addr` (Linux) | Show local IP configuration |
+| `ping <ipaddr>` | Check if host is reachable |
+| `nmap -sV <ipaddr>` | Scan target and detect service versions on open ports |
+| `nmap -sV -p21 <ipaddr>` | Scan and detect service version on a specific port (e.g. port 21 = FTP) |
 
-Nmap -sV  (ipaddr)        
+## Exploitation — Metasploit
 
-namp -sV -p21
-----------------------------------------------------------------------------------------------------------
-msfconsole (to start metaploit) 
-
-use    
-
-info            
-
-show options
-
-set (set the necessary parameters RHOST refers to the target's IP , LHOST refers to the attacker's) 
-
-run 
+| Command | What it does |
+|---------|--------------|
+| `msfconsole` | Launch the Metasploit Framework |
+| `use <exploit/module path>` | Select an exploit or module to use |
+| `info` | Show detailed info about the selected module |
+| `show options` | Display parameters required for the module |
+| `set RHOST <target IP>` | Set the target's IP address |
+| `set LHOST <attacker IP>` | Set your (attacker) IP address |
+| `run` or `exploit` | Execute the selected module |
 
 <img width="956" height="494" alt="Screenshot 2026-07-24 151708" src="https://github.com/user-attachments/assets/4bef9547-df4e-4c65-a5e1-ce6c8b189b05" />
 
