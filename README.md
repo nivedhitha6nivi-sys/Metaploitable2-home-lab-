@@ -32,7 +32,7 @@ Remediation:
 
 Disable the vulnerable FTP Service on Port 21  
 
-Restrict Network Access 
+<img width="959" height="553" alt="Screenshot 2026-08-15 163204" src="https://github.com/user-attachments/assets/46f9b7a7-421b-4983-90f8-ac2a62be1dba" />
 
-Update Software patches 
+
 
