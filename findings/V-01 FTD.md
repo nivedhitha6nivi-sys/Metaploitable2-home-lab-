@@ -9,3 +9,14 @@ service: FTP
 
 Port: 21/tcp 
 
+<img width="955" height="500" alt="Screenshot 2026-07-24 150239" src="https://github.com/user-attachments/assets/9c142a95-cc33-4efa-9115-a95bfa8904d7" />
+
+## commands used: 
+
+msfconsole - Launch metasploit 
+
+info - show detailed info about the selected module path 
+
+use <exploit/module path> - select an exploit to use 
+
+                      
