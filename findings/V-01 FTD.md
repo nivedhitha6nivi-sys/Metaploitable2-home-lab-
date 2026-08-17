@@ -1,13 +1,17 @@
 ## Exploitation using metasploit 
 
+Service: FTP
 
-## The Vulnerability Service 
+Port: 21
+
+Software: vsftpd
+
+Issue: Vulnerable/outdated FTP implementation
+
+Risk: Unauthorized access
+
 version: vsftpd v2.3.4 exploit uses a backdoor vulnerability to allow attackers to 
 gain unauthorized shell access to systems running this version of the FTP (file transfer Protocol) Server. 
-
-service: FTP 
-
-Port: 21/tcp 
 
 <img width="955" height="500" alt="Screenshot 2026-07-24 150239" src="https://github.com/user-attachments/assets/9c142a95-cc33-4efa-9115-a95bfa8904d7" />
 
