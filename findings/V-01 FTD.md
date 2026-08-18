@@ -23,5 +23,13 @@ info - show detailed info about the selected module path
 
 use <exploit/module path> - select an exploit to use 
 
+show options - display parameters required for the module 
+
+Set RHOST <Targetip> - set the target's ip 
+
+set LHOST <Attackerip> - set the attacker's ip 
+
+ run - execute the selected module 
+ 
 <img width="956" height="494" alt="Screenshot 2026-07-24 151708" src="https://github.com/user-attachments/assets/c899ac29-2aa4-4850-85f2-5febbdf80bcc" />
                       
