@@ -29,7 +29,7 @@ Cybersecurity lab for vulnerability assessment and penetration testing using Met
 | ID | Vulnerability | Service | Severity |
 |----|---------------|---------|----------|
 | V-01 | Vulnerable FTP service | FTP | High |
-| V-02 | Telnet exposure | Telnet | High |
+| V-02 |  |                     |            |
 | V-03 | ... | ... | ... |
 
 ## Key Recommendations
