@@ -20,17 +20,12 @@ Cybersecurity lab for vulnerability assessment and penetration testing using Met
 1. Reconnaissance
 2. Enumeration
 3. Vulnerability identification
-4. Validation
 5. Remediation
 6. Verification
 
-## Findings
+## Vulnerability Findings
 
-| ID | Vulnerability | Service | Severity |
-|----|---------------|---------|----------|
-| V-01 | Vulnerable FTP service | FTP | High |
-| V-02 |  |                     |            |
-| V-03 | ... | ... | ... |
+- [V-01: FTP Service](findings/V-01-FTP.md)
 
 ## Key Recommendations
 - Disable unnecessary services
