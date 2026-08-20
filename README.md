@@ -25,7 +25,7 @@ Cybersecurity lab for vulnerability assessment and penetration testing using Met
 
 ## Vulnerability Findings
 
-- [V-01: FTP Service](findings/V-01-FTP.md)
+[V-01: FTP Service](findings/V-01-FTP.md) 
 
 ## Key Recommendations
 - Disable unnecessary services
