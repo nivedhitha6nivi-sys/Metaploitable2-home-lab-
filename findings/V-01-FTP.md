@@ -35,4 +35,4 @@ by using this exploit access can be maintained.
  
 ## remediation 
 
-[Remediation for FTD Service](remediation/V-01\FTP.md)
+[Remediation-FTD Service](remediation/V-01\FTP.md)
