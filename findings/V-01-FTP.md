@@ -34,5 +34,6 @@ by using this exploit access can be maintained.
 <img width="1915" height="601" alt="Screenshot 2026-08-20 114910" src="https://github.com/user-attachments/assets/129df17f-e6d4-41e8-a06e-3eb417bc32f8" />
  
 ## remediation 
+[View FTP Remediation](../remediation/V-01-FTP.md)
 
-[Remediation-FTD Service](remediation/V-01\FTP.md)
+
